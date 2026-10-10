@@ -1,4 +1,5 @@
 package com.Leetcode;
+import  java.util.Arrays;
 
 public class Remove_Element {
     static void remove(int []arr, int tar){
@@ -9,7 +10,8 @@ public class Remove_Element {
             }
             sort[i]=arr[i];
         }
-        
+        System.out.println(Arrays.toString(sort));
+
     }
     static void main(String[] args) {
         int []arr = {1,2,4,5};
