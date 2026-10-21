@@ -18,6 +18,6 @@ public class TargetArray_In_GivenOrder {
         for (int i = 0; i < arr.length; i++) {
             out[i] = list.get(i);
         }
-        
+
     }
 }
