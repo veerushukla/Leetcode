@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class UniqueIntSumUpToZero {
     static void main(String[] args) {
-        int []arr = new int[100];
+        int []arr = new int[5];
         int count =  1;
 
         while (count!=0){
